@@ -1,0 +1,48 @@
+---
+import data from "src/data/pathway-clinics";
+import Layout from "src/layouts/PageLayout.astro";
+import DynaImage from "src/components/DynaImage.astro";
+import PageHeader from "src/components/PageHeader.astro";
+import PageSectionStd from "src/components/PageSectionStd.astro";
+import WorkNav from "src/components/WorkNav.astro";
+import lagertown from "src/data/lagertown";
+import lgbCw from "src/data/lgb-cw";
+---
+
+<Layout title={data.title} classes={["page", data.id, `page-${data.id}`]}>
+  <main class:list={["content", "content-page", `content-page-${data.id}`]}>
+    <article class:list={["page-article", `${data.id}-article`]}>
+      
+      <PageHeader data={data} />
+
+      <PageSectionStd
+        data={data.content.section1}
+        dataKey="section1"
+        id={data.id}
+        sectionClass="section-text-right"
+      />
+      <PageSectionStd
+        data={data.content.section2}
+        dataKey="section2"
+        id={data.id}
+        sectionClass="section-text-left"
+      />
+      <PageSectionStd
+        data={data.content.section3}
+        dataKey="section3"
+        id={data.id}
+        sectionClass="section-text-right"
+      />
+      <PageSectionStd
+        data={data.content.section4}
+        dataKey="section4"
+        id={data.id}
+        sectionClass="section-text-left"
+      />
+
+    </article>
+  </main>
+
+  <WorkNav leftNav={lgbCw} rightNav={lagertown} />
+
+</Layout>

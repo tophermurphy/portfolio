@@ -4,9 +4,10 @@ import ThumbHome from "../components/ThumbHome.astro";
 import HomeHero from "src/components/HomeHero.astro";
 // Data imports
 import lgbCw from "src/data/lgb-cw";
-import h2oCw from "../data/h2o-cw";
+import h2oCw from "src/data/h2o-cw";
 import lagertown from "src/data/lagertown";
 import h2oEmail from "src/data/h2o-email";
+import pathwayClinics from "src/data/pathway-clinics";
 ---
 
 <Layout classes={["home"]}>
@@ -14,6 +15,7 @@ import h2oEmail from "src/data/h2o-email";
   <main id="work">
     <HomeHero />
     <section class="project-thumbs-range">
+      <ThumbHome data={pathwayClinics} />
       <ThumbHome data={lgbCw} />
       <ThumbHome data={h2oCw} />
       <ThumbHome data={lagertown} />
