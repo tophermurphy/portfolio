@@ -45,8 +45,6 @@ $base-lighter: color.adjust($base-dark, $lightness: 50%, $space: oklch);
 
 $margin-bottom-std: 1rem;
 
-// $shadows-std: -2px 2px 4px rgba(0, 0, 0, .3);
-
 $shadows-std: -1px 4px 6px 0px rgba(0, 0, 0, 0.3);
 $shadows-sm: -1px 2px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -55,6 +53,13 @@ $shadows-sm: -1px 2px 4px 0px rgba(0, 0, 0, 0.15);
 $md-width: 740px;
 $lg-width: 998px;
 $xl-width: 1400px;
+
+.xl-show {
+  display: none;
+  @media (min-width: $xl-width) {
+    display: block;
+  }
+}
 
 .lg-show {
   display: none;

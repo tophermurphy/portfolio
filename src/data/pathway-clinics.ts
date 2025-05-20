@@ -6,7 +6,7 @@ export const pathwayClinics: PageType = {
   slug: "pathway-clinics",
   type: "page",
   subtitle: "enterprise corporate cms & website",
-  description: "Launched over 100 websites with 4 themes",
+  description: "Launched over 100 websites <br class='md-show' />with 4 themes",
   thumbnail: {
     filename: "pathway-clinics/thumbnail/pathway-thumbnail.png",
     alt: "",
@@ -18,22 +18,22 @@ export const pathwayClinics: PageType = {
   platforms: ["PirhanaCMS"],
   headImages: [
     {
-      filename: "h2o-web/header/serum-splash.jpg",
-      alt: "Serum bottle emerging from a rippling pool of water.",
+      filename: "pathway-clinics/header/pathway-header-0.png",
+      alt: "",
       widths: [524, 1048, 1572],
       mobileWidth: "90vw",
       defaultWidth: "524px",
     },
     {
-      filename: "h2o-web/header/shiny-products.jpg",
-      alt: "A trio of highly reflective skincare jars and tube.",
+      filename: "pathway-clinics/header/pathway-header-1.png",
+      alt: "",
       widths: [240, 278, 526, 804],
       mobileWidth: "45vw",
       defaultWidth: "278px",
     },
     {
-      filename: "h2o-web/header/shampoo-texture.jpg",
-      alt: "A creamy green shampoo texture.",
+      filename: "pathway-clinics/header/pathway-header-2.png",
+      alt: "",
       widths: [240, 365, 690, 1055],
       mobileWidth: "45vw",
       defaultWidth: "365px",
@@ -41,7 +41,7 @@ export const pathwayClinics: PageType = {
   ],
   content: {
     section1: {
-      header: "4 Themes, <br/ class='md-show'>1 Platform",
+      header: "4 Themes, <br class='md-show' />1 Platform",
       body: [
         "The core need for this project was the ability for clinics to brand themselves. We provided 4 theme options and an ability to customize the colors. To do this I prioritized semantic CSS, so most of the heavy lifting was done with the style sheets.",
       ],
@@ -73,7 +73,7 @@ export const pathwayClinics: PageType = {
       ],
     },
     section2: {
-      header: "Heroes, Main Nav, <br/ class='md-show'>Info Block &amp; Cards",
+      header: "Heroes, Main Nav, <br class='md-show' />Info Block &amp; Cards",
       body: [
         "There was quite a bit of testing to insure that a broad range of logo proportions would fit in the main nav. While most where accommodated, we did include the capability to add custom CSS for the outliers that didn't fit. Semantic CSS helped to accommodate the edge cases.",
       ],
@@ -132,7 +132,7 @@ export const pathwayClinics: PageType = {
       ],
     },
     section4: {
-      header: "Contact Us &amp; Footer",
+      header: "Contact Us <br class='lg-show' />&amp; Footer",
       body: [
         "The length of clinic hours varied greatly. The challenge was to use CSS to ensure that the contact us info and Google Map iframe stayed properly scaled and centered.",
       ],
@@ -151,6 +151,12 @@ export const pathwayClinics: PageType = {
         },
         {
           filename: "pathway-clinics/portfolio/pathway-contact-2.png",
+          alt: "",
+          mobileWidth: "100vw",
+          defaultWidth: "800px",
+        },
+        {
+          filename: "pathway-clinics/portfolio/pathway-contact-3.png",
           alt: "",
           mobileWidth: "100vw",
           defaultWidth: "800px",

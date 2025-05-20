@@ -29,9 +29,7 @@ const { data } = Astro.props;
     <h1>{data.title}</h1>
     <h2>{data.subtitle}</h2>
   </div>
-  <blockquote class="page-description">
-    {data.description}
-  </blockquote>
+  <blockquote class="page-description" set:html={data.description} />
   {
     data.roles && data.roles.length && (
       <div class="page-info page-roles">
