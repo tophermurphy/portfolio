@@ -1,11 +1,12 @@
 ---
 import data from "src/data/pathway-clinics";
 import Layout from "src/layouts/PageLayout.astro";
+import DynaImage from "src/components/DynaImage.astro";
 import PageHeader from "src/components/PageHeader.astro";
 import PageSectionStd from "src/components/PageSectionStd.astro";
 import WorkNav from "src/components/WorkNav.astro";
+import lagertown from "src/data/lagertown";
 import lgbCw from "src/data/lgb-cw";
-import startHearing from "src/data/start-hearing";
 ---
 
 <Layout title={data.title} classes={["page", data.id, `page-${data.id}`]}>
@@ -42,6 +43,6 @@ import startHearing from "src/data/start-hearing";
     </article>
   </main>
 
-  <WorkNav leftNav={startHearing} rightNav={lgbCw} />
+  <WorkNav leftNav={lgbCw} rightNav={lagertown} />
 
 </Layout>

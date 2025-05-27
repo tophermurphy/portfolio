@@ -90,10 +90,10 @@
   }
 
   .image-headImages-0 img{
-    object-position: center 40%;
+    transform: translate(-50%, -40%);
 
-    @media( min-width: vars.$md-width){
-      object-position: center;
+    @media( min-width: vars.$lg-width){
+      // transform: none;
     }
   }
 

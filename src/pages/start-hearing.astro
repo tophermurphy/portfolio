@@ -4,8 +4,8 @@ import Layout from "src/layouts/PageLayout.astro";
 import PageHeader from "src/components/PageHeader.astro";
 import PageSectionStd from "src/components/PageSectionStd.astro";
 import WorkNav from "src/components/WorkNav.astro";
+import lagertown from "src/data/lagertown";
 import lgbCw from "src/data/lgb-cw";
-import pathwayClinics from "src/data/pathway-clinics";
 ---
 
 <Layout title={data.title} classes={["page", data.id, `page-${data.id}`]}>
@@ -49,6 +49,6 @@ import pathwayClinics from "src/data/pathway-clinics";
     </article>
   </main>
 
-  <WorkNav leftNav={lgbCw} rightNav={pathwayClinics} />
+  <WorkNav leftNav={lgbCw} rightNav={lagertown} />
 
 </Layout>

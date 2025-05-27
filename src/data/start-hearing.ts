@@ -1,6 +1,6 @@
 import type { PageType } from "src/types/template";
 
-export const startHearing: PageType = {
+export const pathwayClinics: PageType = {
   title: "Start Hearing",
   id: "start-hearing",
   slug: "start-hearing",
@@ -18,25 +18,25 @@ export const startHearing: PageType = {
   platforms: ["Strapi CMS"],
   headImages: [
     {
-      filename: "start-hearing/header/sh-thumbnail-1a.png",
+      filename: "pathway-clinics/header/pathway-header-0.png",
       alt: "",
       widths: [524, 1048, 1572],
       mobileWidth: "90vw",
-      defaultWidth: "800px",
+      defaultWidth: "524px",
     },
     {
-      filename: "start-hearing/header/sh-thumbnail-2a.png",
+      filename: "pathway-clinics/header/pathway-header-1.png",
       alt: "",
       widths: [240, 278, 526, 804],
       mobileWidth: "45vw",
-      defaultWidth: "500px",
+      defaultWidth: "278px",
     },
     {
-      filename: "start-hearing/header/sh-thumbnail-3a.png",
+      filename: "pathway-clinics/header/pathway-header-2.png",
       alt: "",
       widths: [240, 365, 690, 1055],
       mobileWidth: "45vw",
-      defaultWidth: "600px",
+      defaultWidth: "365px",
     },
   ],
   content: {
@@ -156,4 +156,4 @@ export const startHearing: PageType = {
   },
 };
 
-export default startHearing;
+export default pathwayClinics;

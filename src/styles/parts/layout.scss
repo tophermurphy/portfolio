@@ -10,6 +10,8 @@ body.about-me {
       rgba(250, 250, 250, 0.73)
     ),
     url(../images/noisy-texture-100x100.png) repeat;
+
+  // background: url(../images/noisy-texture-100x100.png) auto repeat;
 }
 
 /// ****** Components ****** ///////
@@ -265,6 +267,7 @@ body.about-me {
   }
   img {
     @extend %img-ctr-responsive;
+    max-width: 150%;
   }
 }
 
