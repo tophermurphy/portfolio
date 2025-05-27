@@ -2,6 +2,18 @@
 
 // Begin Page Class Wrap //
 .page-pathway-clinics {
+
+    .image-headImages-1 {
+    img {
+      object-position: center 30%;
+    }
+  }
+  .image-headImages-2 {
+    img {
+      object-position: center 100%;
+    }
+  }
+
   .section-images-section1 {
     display: flex;
     align-items: center;

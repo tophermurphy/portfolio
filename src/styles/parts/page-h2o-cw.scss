@@ -23,16 +23,6 @@
     grid-template-rows: 1fr 1fr 1fr #{ vars.$margin-bottom-std * 2} 1fr 1fr 1fr;
 }
 
-.image-headImages-1 img {
-    top: 70%;
-    transform: translate(-50%, -70%);
-}
-
-.image-headImages-2 img {
-    left: 0;
-    transform: translate(0, -50%);
-}
-
 .section-images { 
     position: relative;
 }
