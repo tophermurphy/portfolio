@@ -194,11 +194,9 @@
     margin-bottom: vars.$margin-bottom-std;
     img {
       @extend %img-ctr-responsive;
-      top: 0;
-      transform: translateX(-50%);
     }
     &:hover {
-      transform: scale(1.0125);
+      transform: scale(1.05);
       transition: 0.4s;
     }
   }

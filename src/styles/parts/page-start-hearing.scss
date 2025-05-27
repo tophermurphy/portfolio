@@ -1,0 +1,49 @@
+.page-start-hearing {
+  picture {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .section-images-section1 {
+    .image-wrapper {
+      width: 53%;
+    }
+    .image-section1-1 {
+      margin-left: auto;
+      margin-top: -40%;
+    }
+    .image-section1-2 {
+      margin-top: -20%;
+    }
+    .image-section1-3 {
+      margin-left: auto;
+      margin-top: -20%;
+    }
+  }
+
+  .section-images-section2,
+  .section-images-section3,
+  .section-images-section4 {
+    picture {
+      border-radius: 10px;
+    }
+  }
+  .section-images-section5 {
+    .image-wrapper {
+      width: 53%;
+    }
+    .image-section5-1 {
+      margin-left: auto;
+      margin-top: -20%;
+    }
+    .image-section5-2 {
+      margin-top: -10%;
+    }
+    .image-section5-3 {
+      margin-left: auto;
+      margin-top: -10%;
+    }
+    .image-section5-4 {
+      margin-top: -20%;
+    }
+  }
+}
