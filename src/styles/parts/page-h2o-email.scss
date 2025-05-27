@@ -1,12 +1,6 @@
 @use "variables.scss" as vars;
 
 .page-h2o-email {
-  .image-headImages-1 {
-    img {
-      top: 10%;
-      transform: translate(-50%, -10%);
-    }
-  }
 
   @media (min-width: vars.$md-width) {
     .image-headImages-0 {
