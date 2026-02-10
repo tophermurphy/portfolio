@@ -1,0 +1,30 @@
+@use "variables.scss" as vars;
+
+a.button {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  background: vars.$base-accent;
+  color: vars.$base-white !important;
+  box-shadow: vars.$shadows-sm;
+  padding: 0.375rem 1rem;
+  display: inline-flex;
+  width: auto;
+  transition: transform vars.$animation-duration vars.$animation-easing;
+  transform-origin: bottom left;
+  &::after {
+    content: ">";
+    display: inline-flex;
+    margin-left: 0.5em;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.project-thumbs-range a.button {
+  margin-left: 5%;
+  @media (min-width: 1116px) {
+    margin-left: 0;
+  }
+}

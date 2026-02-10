@@ -1,6 +1,8 @@
 ---
 import type { PageData } from 'src/types/template';
 import DynaImage from './DynaImage.astro';
+import Button from './Button.astro';
+
 interface Props {
     data: PageData;
 }
@@ -18,4 +20,5 @@ const { data } = Astro.props
         <h4 class="thumb-subtitle">{data.subtitle}</h4>
       </figcaption>
       </a>
+      <Button link={`/${data.slug}`}/>
 </figure>

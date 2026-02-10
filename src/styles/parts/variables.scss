@@ -8,8 +8,8 @@ $page-header-font: rama-gothic-c, "Rama Gothic C", Impact, sans-serif;
   font-weight: 900;
 }
 
-$page-subheader-font: minion-3-subhead, "Minion 3 Subhead", "Times New Roman",
-  Times, serif;
+$page-subheader-font:
+  minion-3-subhead, "Minion 3 Subhead", "Times New Roman", Times, serif;
 %page-subheader {
   font-family: $page-subheader-font;
   font-weight: 400;
@@ -53,6 +53,9 @@ $shadows-sm: -1px 2px 4px 0px rgba(0, 0, 0, 0.15);
 $md-width: 740px;
 $lg-width: 998px;
 $xl-width: 1400px;
+
+$animation-easing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$animation-duration: 0.2s;
 
 .xl-show {
   display: none;
@@ -208,7 +211,7 @@ $grid-images-left: col 1 / gutter 7;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  content: "";
+  clear: both;
+  display: table;
+}
